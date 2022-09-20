@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact details</title>
+</head>
+<body>
+    <h1>Contact Details</h1>
+    <p>address: my address</p>
+    <p>Phone: 123465489</p>
+    <p>mail: mail@mail.com</p>
+
+    <form action="mailto:swamynarshima@gmail.com" method="post" enctype="text/plain">
+        <label for="yourname">Your Name</label>
+        <input type="text" id="yourname" name="yourname" required><br>
+        <label for="mobile">Your Mobile</label>
+        <input type="tel" id="mobile" name="mobile" required><br>
+        <label for="mail">Your Mail</label>
+        <input type="email" id="mail" name="mail" required><br>  
+        
+        <label for="date">Enter the Date of Birth</label>
+        <input type="date" id="date" name="date" required><br>
+        <label for="checkbox">The above details are clear and has no error</label>
+        <input type="checkbox" id="checkbox" name="checkbox" required> <br>
+        <label for="message">Your Message</label> <br>
+        <textarea name="yourmessage" id="message" cols="30" rows="10"></textarea> <br>
+        <input type="submit" value="submit">
+
+    </form>
+   
+</body>
+</html>
